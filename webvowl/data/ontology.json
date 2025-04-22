@@ -1,0 +1,1210 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://smartTourismRecommendationSystem.com" ],
+    "title" : {
+      "undefined" : "Smart Tourism Recommendation System"
+    },
+    "iri" : "http://smartTourismRecommendationSystem.com#",
+    "version" : "0.0.1",
+    "author" : [ "Manuel Villafanes Lozano" ],
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Manuel Villafanes Lozano",
+        "type" : "label"
+      } ],
+      "createdWith" : [ {
+        "identifier" : "createdWith",
+        "language" : "undefined",
+        "value" : "https://chowlk.linkeddata.es/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Smart Tourism Recommendation System",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://smartTourismRecommendationSystem.com#PublicBike",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBike",
+      "undefined" : "Public Bike"
+    },
+    "comment" : {
+      "undefined" : "A bicycle service available for public rental."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#TechEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechEvent",
+      "undefined" : "Tech Event"
+    },
+    "comment" : {
+      "undefined" : "An event focused on technological innovations or like LAN parties."
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#MonumentAttraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MonumentAttraction",
+      "undefined" : "Monument Attraction"
+    },
+    "comment" : {
+      "undefined" : "An historic site like buildings or statues that commemorate people or events"
+    },
+    "id" : "9",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#RecommendedRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecommendedRestaurant",
+      "undefined" : "Recommended Restaurant"
+    },
+    "comment" : {
+      "undefined" : "Restaurant with a rating higher than 4.5"
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#MuseumAttraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MuseumAttraction",
+      "undefined" : "Museum Attraction"
+    },
+    "comment" : {
+      "undefined" : "Objects or exhibits in a museum that are of interest to the public."
+    },
+    "id" : "14",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#SportEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportEvent",
+      "undefined" : "Sport Event"
+    },
+    "comment" : {
+      "undefined" : "An event related to sports and competition."
+    },
+    "id" : "18",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Transport",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "Transport"
+    },
+    "subClasses" : [ "23", "3", "24", "25", "26", "27" ],
+    "comment" : {
+      "undefined" : "A system used to move people within a city or region."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#EconomicTransportMadrid",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EconomicTransportMadrid",
+      "undefined" : "Economic Transport Madrid"
+    },
+    "comment" : {
+      "undefined" : "Public transport service operating in Madrid with an average cost lower than 1.5."
+    },
+    "id" : "27",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#MusicEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicEvent",
+      "undefined" : "Music Event"
+    },
+    "subClasses" : [ "31" ],
+    "comment" : {
+      "undefined" : "An event centered around music performances."
+    },
+    "id" : "32",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#mayMusicEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mayMusicEvent",
+      "undefined" : "May Music Event"
+    },
+    "comment" : {
+      "undefined" : "Music event that takes place in May"
+    },
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Metro",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metro",
+      "undefined" : "Metro"
+    },
+    "comment" : {
+      "undefined" : "A rail-based public transport system in cities."
+    },
+    "id" : "23",
+    "superClasses" : [ "4" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "36", "8", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "36", "4", "8", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#ItalianRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "undefined" : "Italian Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specialized in Italian cuisine."
+    },
+    "id" : "49",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#GastronomicEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicEvent",
+      "undefined" : "Gastronomic Event"
+    },
+    "comment" : {
+      "undefined" : "An event focused on food or cuisine."
+    },
+    "id" : "64",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#LuxuryHotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "undefined" : "Luxury Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel with premium services and high-end facilities."
+    },
+    "id" : "65",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#ParkAttraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParkAttraction",
+      "undefined" : "Park Attraction"
+    },
+    "comment" : {
+      "undefined" : "Rides, games, shows, and other entertainment options found in parks."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#BeachHotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "undefined" : "Beach Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel located near the beach."
+    },
+    "id" : "69",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#CulturalEvent",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "undefined" : "Cultural Event"
+    },
+    "comment" : {
+      "undefined" : "An event related to cultural themes."
+    },
+    "id" : "62",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#MexicanRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "undefined" : "Mexican Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specialized in Mexican cuisine."
+    },
+    "id" : "47",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Restaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Restaurant",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "56", "49", "47", "12", "51", "44" ],
+    "comment" : {
+      "undefined" : "A place where food is prepared and served to customers."
+    },
+    "id" : "13",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Place",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place",
+      "undefined" : "Place"
+    },
+    "subClasses" : [ "42", "2", "13" ],
+    "comment" : {
+      "undefined" : "Abstract class representing a physical location within a city."
+    },
+    "id" : "36"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#MediterraneanRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "undefined" : "Mediterranean Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specialized in Mediterranean cuisine."
+    },
+    "id" : "56",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#BeachAttraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachAttraction",
+      "undefined" : "Beach Attraction"
+    },
+    "comment" : {
+      "undefined" : "A tourist attraction located on a beach."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#RuralHotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralHotel",
+      "undefined" : "Rural Hotel"
+    },
+    "comment" : {
+      "undefined" : "Hotel located in a rural area"
+    },
+    "id" : "68",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#TouristicHotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristicHotel",
+      "undefined" : "Touristic Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel intended primarily for leisure tourism."
+    },
+    "id" : "78",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Taxi",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "undefined" : "Taxi"
+    },
+    "comment" : {
+      "undefined" : "A vehicle for hire with a driver for individual transport."
+    },
+    "id" : "25",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Bus",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "undefined" : "Bus"
+    },
+    "comment" : {
+      "undefined" : "A bus used for public passenger transport in cities."
+    },
+    "id" : "24",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Tram",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "undefined" : "Tram"
+    },
+    "comment" : {
+      "undefined" : "A passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road."
+    },
+    "id" : "26",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Attraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "undefined" : "Attraction"
+    },
+    "subClasses" : [ "22", "20", "1", "9", "14" ],
+    "comment" : {
+      "undefined" : "A location of touristic interest for visitors."
+    },
+    "id" : "2",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#CulturalAttraction",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "undefined" : "Cultural Attraction"
+    },
+    "comment" : {
+      "undefined" : "An attraction thats offer cultural experiences to visitors."
+    },
+    "id" : "22",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Hotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "subClasses" : [ "78", "65", "69", "68", "73" ],
+    "comment" : {
+      "undefined" : "An establishment that offers lodging to travelers."
+    },
+    "id" : "42",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#Event",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "18", "7", "64", "62", "32" ],
+    "comment" : {
+      "undefined" : "An event happening at a certain time and location, such as a concert, sport, or festival."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#City",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/City",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "comment" : {
+      "undefined" : "A city that contains touristic places, events, and services."
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#AndalusianRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianRestaurant",
+      "undefined" : "Andalusian Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specialized in Andalusian cuisine."
+    },
+    "id" : "44",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#JapaneseRestaurant",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "undefined" : "Japanese Restaurant"
+    },
+    "comment" : {
+      "undefined" : "A restaurant specialized in Japanese cuisine."
+    },
+    "id" : "51",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#BusinessHotel",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "undefined" : "Business Hotel"
+    },
+    "comment" : {
+      "undefined" : "A hotel designed for business travelers."
+    },
+    "id" : "73",
+    "superClasses" : [ "42" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#operatesIn",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "operatesIn",
+      "undefined" : "operates In"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Links a public transport service to the city in which it operates."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasCompany",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasCompany",
+      "undefined" : "has company"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Identifies the company that operates a transport service."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasName",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasName",
+      "undefined" : "has name"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The name of the entity, such as a hotel, city, or attraction."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "2",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "4",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "36",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "4",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasDate",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "undefined" : "has date"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Specifies the date on which an event takes place."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "range" : "36",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "13",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "36",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "13",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "13",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "13",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasRating",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasRating",
+      "undefined" : "has rating"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "Numerical score representing the quality or user evaluation of a service or place."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "range" : "13",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "8",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasId",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasId",
+      "undefined" : "has id"
+    },
+    "domain" : "57",
+    "comment" : {
+      "undefined" : "Identifier assigned to an entity, unique within its class (e.g., hotel, restaurant, attraction)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "range" : "8",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "8",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "42",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "42",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "8",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "42",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "2",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "42",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "42",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#isLocatedIn",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "undefined" : "is Located In"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates a physical place such as a hotel, restaurant, or attraction to the city where it is located."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasAverageCost",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "hasAverageCost",
+      "undefined" : "has average cost"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Indicates the average cost of using a transport service."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#takesPlaceIn",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "takesPlaceIn",
+      "undefined" : "takes Place In"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Associates an event with the city where it is held."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasPricePerNight",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasPricePerNight",
+      "undefined" : "has price per night"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "Price charged for one night’s stay in a hotel."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasAveragePrice",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "hasAveragePrice",
+      "undefined" : "has average price"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Refers to the average price of a meal in a restaurant."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasCoordinates",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasCoordinates",
+      "undefined" : "has coordinates"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Geographic coordinates (latitude and longitude) that locate a city on the map."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://smartTourismRecommendationSystem.com#hasStars",
+    "baseIri" : "http://smartTourismRecommendationSystem.com",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasStars",
+      "undefined" : "has stars"
+    },
+    "cardinality" : "1",
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "Star rating assigned to a hotel based on its category or services."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "90"
+  } ]
+}
