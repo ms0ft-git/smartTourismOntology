@@ -1,0 +1,1211 @@
+@prefix : <http://smartTourismRecommendationSystem.com#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix SmartTourismRecommendationSystem: <http://smartTourismRecommendationSystem.com#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartTourismRecommendationSystem.com/Hotels>
+    a owl:Ontology .
+
+#################################################################
+#    Individuals Hotels
+#################################################################
+
+###  http://smartTourismRecommendationSystem.com#hotel1
+SmartTourismRecommendationSystem:hotel1 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "1" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "278"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel1" .
+
+###  http://smartTourismRecommendationSystem.com#hotel2
+SmartTourismRecommendationSystem:hotel2 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "2" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel2" .
+
+###  http://smartTourismRecommendationSystem.com#hotel3
+SmartTourismRecommendationSystem:hotel3 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Málaga" ;
+       SmartTourismRecommendationSystem:hasId "3" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "175"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel3" .
+
+###  http://smartTourismRecommendationSystem.com#hotel4
+SmartTourismRecommendationSystem:hotel4 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "4" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "232"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel4" .
+
+###  http://smartTourismRecommendationSystem.com#hotel5
+SmartTourismRecommendationSystem:hotel5 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "5" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "120"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel5" .
+
+###  http://smartTourismRecommendationSystem.com#hotel6
+SmartTourismRecommendationSystem:hotel6 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "6" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "245"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel6" .
+
+###  http://smartTourismRecommendationSystem.com#hotel7
+SmartTourismRecommendationSystem:hotel7 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Valencia" ;
+       SmartTourismRecommendationSystem:hasId "7" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "76"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel7" .
+
+###  http://smartTourismRecommendationSystem.com#hotel8
+SmartTourismRecommendationSystem:hotel8 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "8" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "150"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel8" .
+
+###  http://smartTourismRecommendationSystem.com#hotel9
+SmartTourismRecommendationSystem:hotel9 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "9" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "252"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel9" .
+
+###  http://smartTourismRecommendationSystem.com#hotel10
+SmartTourismRecommendationSystem:hotel10 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "10" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "196"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel10" .
+
+###  http://smartTourismRecommendationSystem.com#hotel11
+SmartTourismRecommendationSystem:hotel11 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Madrid" ;
+       SmartTourismRecommendationSystem:hasId "11" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "146"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel11" .
+
+###  http://smartTourismRecommendationSystem.com#hotel12
+SmartTourismRecommendationSystem:hotel12 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Madrid" ;
+       SmartTourismRecommendationSystem:hasId "12" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "50"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel12" .
+
+###  http://smartTourismRecommendationSystem.com#hotel13
+SmartTourismRecommendationSystem:hotel13 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "13" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "95"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel13" .
+
+###  http://smartTourismRecommendationSystem.com#hotel14
+SmartTourismRecommendationSystem:hotel14 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Madrid" ;
+       SmartTourismRecommendationSystem:hasId "14" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "91"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel14" .
+
+###  http://smartTourismRecommendationSystem.com#hotel15
+SmartTourismRecommendationSystem:hotel15 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "15" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "287"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel15" .
+
+###  http://smartTourismRecommendationSystem.com#hotel16
+SmartTourismRecommendationSystem:hotel16 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "16" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "199"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel16" .
+
+###  http://smartTourismRecommendationSystem.com#hotel17
+SmartTourismRecommendationSystem:hotel17 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Toledo" ;
+       SmartTourismRecommendationSystem:hasId "17" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "145"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel17" .
+
+###  http://smartTourismRecommendationSystem.com#hotel18
+SmartTourismRecommendationSystem:hotel18 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Madrid" ;
+       SmartTourismRecommendationSystem:hasId "18" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "290"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel18" .
+
+###  http://smartTourismRecommendationSystem.com#hotel19
+SmartTourismRecommendationSystem:hotel19 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "19" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "290"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel19" .
+
+###  http://smartTourismRecommendationSystem.com#hotel20
+SmartTourismRecommendationSystem:hotel20 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Valencia" ;
+       SmartTourismRecommendationSystem:hasId "20" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "149"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel20" .
+
+###  http://smartTourismRecommendationSystem.com#hotel21
+SmartTourismRecommendationSystem:hotel21 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Valencia" ;
+       SmartTourismRecommendationSystem:hasId "21" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "291"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel21" .
+
+###  http://smartTourismRecommendationSystem.com#hotel22
+SmartTourismRecommendationSystem:hotel22 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Málaga" ;
+       SmartTourismRecommendationSystem:hasId "22" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "238"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel22" .
+
+###  http://smartTourismRecommendationSystem.com#hotel23
+SmartTourismRecommendationSystem:hotel23 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Toledo" ;
+       SmartTourismRecommendationSystem:hasId "23" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "99"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel23" .
+
+###  http://smartTourismRecommendationSystem.com#hotel24
+SmartTourismRecommendationSystem:hotel24 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "24" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "150"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel24" .
+
+###  http://smartTourismRecommendationSystem.com#hotel25
+SmartTourismRecommendationSystem:hotel25 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "25" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "92"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel25" .
+
+###  http://smartTourismRecommendationSystem.com#hotel26
+SmartTourismRecommendationSystem:hotel26 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "26" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "151"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel26" .
+
+###  http://smartTourismRecommendationSystem.com#hotel27
+SmartTourismRecommendationSystem:hotel27 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "27" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel27" .
+
+###  http://smartTourismRecommendationSystem.com#hotel28
+SmartTourismRecommendationSystem:hotel28 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "28" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "110"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel28" .
+
+###  http://smartTourismRecommendationSystem.com#hotel29
+SmartTourismRecommendationSystem:hotel29 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Madrid" ;
+       SmartTourismRecommendationSystem:hasId "29" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "131"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel29" .
+
+###  http://smartTourismRecommendationSystem.com#hotel30
+SmartTourismRecommendationSystem:hotel30 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "30" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "270"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel30" .
+
+###  http://smartTourismRecommendationSystem.com#hotel31
+SmartTourismRecommendationSystem:hotel31 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Madrid" ;
+       SmartTourismRecommendationSystem:hasId "31" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "117"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel31" .
+
+###  http://smartTourismRecommendationSystem.com#hotel32
+SmartTourismRecommendationSystem:hotel32 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Toledo" ;
+       SmartTourismRecommendationSystem:hasId "32" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "74"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel32" .
+
+###  http://smartTourismRecommendationSystem.com#hotel33
+SmartTourismRecommendationSystem:hotel33 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "33" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "189"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel33" .
+
+###  http://smartTourismRecommendationSystem.com#hotel34
+SmartTourismRecommendationSystem:hotel34 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "34" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "250"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel34" .
+
+###  http://smartTourismRecommendationSystem.com#hotel35
+SmartTourismRecommendationSystem:hotel35 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "35" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "59"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel35" .
+
+###  http://smartTourismRecommendationSystem.com#hotel36
+SmartTourismRecommendationSystem:hotel36 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "36" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "298"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel36" .
+
+###  http://smartTourismRecommendationSystem.com#hotel37
+SmartTourismRecommendationSystem:hotel37 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Valencia" ;
+       SmartTourismRecommendationSystem:hasId "37" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "139"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel37" .
+
+###  http://smartTourismRecommendationSystem.com#hotel38
+SmartTourismRecommendationSystem:hotel38 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Málaga" ;
+       SmartTourismRecommendationSystem:hasId "38" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "196"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel38" .
+
+###  http://smartTourismRecommendationSystem.com#hotel39
+SmartTourismRecommendationSystem:hotel39 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "39" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "262"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel39" .
+
+###  http://smartTourismRecommendationSystem.com#hotel40
+SmartTourismRecommendationSystem:hotel40 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "40" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "270"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel40" .
+
+###  http://smartTourismRecommendationSystem.com#hotel41
+SmartTourismRecommendationSystem:hotel41 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "41" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "81"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel41" .
+
+###  http://smartTourismRecommendationSystem.com#hotel42
+SmartTourismRecommendationSystem:hotel42 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Madrid" ;
+       SmartTourismRecommendationSystem:hasId "42" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "227"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel42" .
+
+###  http://smartTourismRecommendationSystem.com#hotel43
+SmartTourismRecommendationSystem:hotel43 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "43" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "116"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel43" .
+
+###  http://smartTourismRecommendationSystem.com#hotel44
+SmartTourismRecommendationSystem:hotel44 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "44" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "131"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel44" .
+
+###  http://smartTourismRecommendationSystem.com#hotel45
+SmartTourismRecommendationSystem:hotel45 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "45" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "269"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel45" .
+
+###  http://smartTourismRecommendationSystem.com#hotel46
+SmartTourismRecommendationSystem:hotel46 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "46" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "292"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel46" .
+
+###  http://smartTourismRecommendationSystem.com#hotel47
+SmartTourismRecommendationSystem:hotel47 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "47" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "65"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel47" .
+
+###  http://smartTourismRecommendationSystem.com#hotel48
+SmartTourismRecommendationSystem:hotel48 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Málaga" ;
+       SmartTourismRecommendationSystem:hasId "48" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "195"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel48" .
+
+###  http://smartTourismRecommendationSystem.com#hotel49
+SmartTourismRecommendationSystem:hotel49 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "49" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "98"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel49" .
+
+###  http://smartTourismRecommendationSystem.com#hotel50
+SmartTourismRecommendationSystem:hotel50 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "50" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "260"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel50" .
+
+###  http://smartTourismRecommendationSystem.com#hotel51
+SmartTourismRecommendationSystem:hotel51 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "51" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "79"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel51" .
+
+###  http://smartTourismRecommendationSystem.com#hotel52
+SmartTourismRecommendationSystem:hotel52 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "52" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "146"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel52" .
+
+###  http://smartTourismRecommendationSystem.com#hotel53
+SmartTourismRecommendationSystem:hotel53 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Málaga" ;
+       SmartTourismRecommendationSystem:hasId "53" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "65"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel53" .
+
+###  http://smartTourismRecommendationSystem.com#hotel54
+SmartTourismRecommendationSystem:hotel54 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Toledo" ;
+       SmartTourismRecommendationSystem:hasId "54" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "174"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel54" .
+
+###  http://smartTourismRecommendationSystem.com#hotel55
+SmartTourismRecommendationSystem:hotel55 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "55" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "254"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel55" .
+
+###  http://smartTourismRecommendationSystem.com#hotel56
+SmartTourismRecommendationSystem:hotel56 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "56" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "167"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel56" .
+
+###  http://smartTourismRecommendationSystem.com#hotel57
+SmartTourismRecommendationSystem:hotel57 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "57" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel57" .
+
+###  http://smartTourismRecommendationSystem.com#hotel58
+SmartTourismRecommendationSystem:hotel58 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "58" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "208"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel58" .
+
+###  http://smartTourismRecommendationSystem.com#hotel59
+SmartTourismRecommendationSystem:hotel59 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "59" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "99"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel59" .
+
+###  http://smartTourismRecommendationSystem.com#hotel60
+SmartTourismRecommendationSystem:hotel60 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "60" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "298"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel60" .
+
+###  http://smartTourismRecommendationSystem.com#hotel61
+SmartTourismRecommendationSystem:hotel61 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "61" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "283"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel61" .
+
+###  http://smartTourismRecommendationSystem.com#hotel62
+SmartTourismRecommendationSystem:hotel62 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "62" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "106"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel62" .
+
+###  http://smartTourismRecommendationSystem.com#hotel63
+SmartTourismRecommendationSystem:hotel63 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "63" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "181"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel63" .
+
+###  http://smartTourismRecommendationSystem.com#hotel64
+SmartTourismRecommendationSystem:hotel64 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "64" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "251"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel64" .
+
+###  http://smartTourismRecommendationSystem.com#hotel65
+SmartTourismRecommendationSystem:hotel65 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Toledo" ;
+       SmartTourismRecommendationSystem:hasId "65" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "193"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel65" .
+
+###  http://smartTourismRecommendationSystem.com#hotel66
+SmartTourismRecommendationSystem:hotel66 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Madrid" ;
+       SmartTourismRecommendationSystem:hasId "66" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "114"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel66" .
+
+###  http://smartTourismRecommendationSystem.com#hotel67
+SmartTourismRecommendationSystem:hotel67 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Madrid" ;
+       SmartTourismRecommendationSystem:hasId "67" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "71"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel67" .
+
+###  http://smartTourismRecommendationSystem.com#hotel68
+SmartTourismRecommendationSystem:hotel68 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Madrid" ;
+       SmartTourismRecommendationSystem:hasId "68" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "172"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel68" .
+
+###  http://smartTourismRecommendationSystem.com#hotel69
+SmartTourismRecommendationSystem:hotel69 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Madrid" ;
+       SmartTourismRecommendationSystem:hasId "69" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "203"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel69" .
+
+###  http://smartTourismRecommendationSystem.com#hotel70
+SmartTourismRecommendationSystem:hotel70 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "70" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "165"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel70" .
+
+###  http://smartTourismRecommendationSystem.com#hotel71
+SmartTourismRecommendationSystem:hotel71 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Málaga" ;
+       SmartTourismRecommendationSystem:hasId "71" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "196"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel71" .
+
+###  http://smartTourismRecommendationSystem.com#hotel72
+SmartTourismRecommendationSystem:hotel72 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "72" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "170"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel72" .
+
+###  http://smartTourismRecommendationSystem.com#hotel73
+SmartTourismRecommendationSystem:hotel73 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "73" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "227"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel73" .
+
+###  http://smartTourismRecommendationSystem.com#hotel74
+SmartTourismRecommendationSystem:hotel74 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "74" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "58"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel74" .
+
+###  http://smartTourismRecommendationSystem.com#hotel75
+SmartTourismRecommendationSystem:hotel75 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Madrid" ;
+       SmartTourismRecommendationSystem:hasId "75" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "67"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel75" .
+
+###  http://smartTourismRecommendationSystem.com#hotel76
+SmartTourismRecommendationSystem:hotel76 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "76" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "251"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel76" .
+
+###  http://smartTourismRecommendationSystem.com#hotel77
+SmartTourismRecommendationSystem:hotel77 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:LuxuryHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "77" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "222"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "LuxuryHotel hotel" ;
+       rdfs:label "hotel77" .
+
+###  http://smartTourismRecommendationSystem.com#hotel78
+SmartTourismRecommendationSystem:hotel78 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "78" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "164"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel78" .
+
+###  http://smartTourismRecommendationSystem.com#hotel79
+SmartTourismRecommendationSystem:hotel79 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Málaga" ;
+       SmartTourismRecommendationSystem:hasId "79" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "84"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel79" .
+
+###  http://smartTourismRecommendationSystem.com#hotel80
+SmartTourismRecommendationSystem:hotel80 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "80" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "220"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel80" .
+
+###  http://smartTourismRecommendationSystem.com#hotel81
+SmartTourismRecommendationSystem:hotel81 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "81" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "74"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel81" .
+
+###  http://smartTourismRecommendationSystem.com#hotel82
+SmartTourismRecommendationSystem:hotel82 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "82" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "286"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel82" .
+
+###  http://smartTourismRecommendationSystem.com#hotel83
+SmartTourismRecommendationSystem:hotel83 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "83" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "251"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel83" .
+
+###  http://smartTourismRecommendationSystem.com#hotel84
+SmartTourismRecommendationSystem:hotel84 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Madrid" ;
+       SmartTourismRecommendationSystem:hasId "84" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "150"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel84" .
+
+###  http://smartTourismRecommendationSystem.com#hotel85
+SmartTourismRecommendationSystem:hotel85 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Madrid" ;
+       SmartTourismRecommendationSystem:hasId "85" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "65"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel85" .
+
+###  http://smartTourismRecommendationSystem.com#hotel86
+SmartTourismRecommendationSystem:hotel86 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Toledo" ;
+       SmartTourismRecommendationSystem:hasId "86" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "70"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel86" .
+
+###  http://smartTourismRecommendationSystem.com#hotel87
+SmartTourismRecommendationSystem:hotel87 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "87" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "75"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel87" .
+
+###  http://smartTourismRecommendationSystem.com#hotel88
+SmartTourismRecommendationSystem:hotel88 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "88" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "149"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel88" .
+
+###  http://smartTourismRecommendationSystem.com#hotel89
+SmartTourismRecommendationSystem:hotel89 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "89" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "148"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel89" .
+
+###  http://smartTourismRecommendationSystem.com#hotel90
+SmartTourismRecommendationSystem:hotel90 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "90" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "121"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel90" .
+
+###  http://smartTourismRecommendationSystem.com#hotel91
+SmartTourismRecommendationSystem:hotel91 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Valencia" ;
+       SmartTourismRecommendationSystem:hasId "91" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "283"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel91" .
+
+###  http://smartTourismRecommendationSystem.com#hotel92
+SmartTourismRecommendationSystem:hotel92 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Royal Málaga" ;
+       SmartTourismRecommendationSystem:hasId "92" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "150"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel92" .
+
+###  http://smartTourismRecommendationSystem.com#hotel93
+SmartTourismRecommendationSystem:hotel93 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Del Mar Madrid" ;
+       SmartTourismRecommendationSystem:hasId "93" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "177"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel93" .
+
+###  http://smartTourismRecommendationSystem.com#hotel94
+SmartTourismRecommendationSystem:hotel94 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "94" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "253"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel94" .
+
+###  http://smartTourismRecommendationSystem.com#hotel95
+SmartTourismRecommendationSystem:hotel95 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:TouristicHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "95" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "177"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "TouristicHotel hotel" ;
+       rdfs:label "hotel95" .
+
+###  http://smartTourismRecommendationSystem.com#hotel96
+SmartTourismRecommendationSystem:hotel96 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Vista Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "96" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "109"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel96" .
+
+###  http://smartTourismRecommendationSystem.com#hotel97
+SmartTourismRecommendationSystem:hotel97 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BusinessHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Málaga" ;
+       SmartTourismRecommendationSystem:hasId "97" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "160"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "BusinessHotel hotel" ;
+       rdfs:label "hotel97" .
+
+###  http://smartTourismRecommendationSystem.com#hotel98
+SmartTourismRecommendationSystem:hotel98 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Madrid" ;
+       SmartTourismRecommendationSystem:hasId "98" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "284"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "4"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel98" .
+
+###  http://smartTourismRecommendationSystem.com#hotel99
+SmartTourismRecommendationSystem:hotel99 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Sol Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "99" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "120"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "5"^^xsd:integer ;
+       rdfs:comment "BeachHotel hotel" ;
+       rdfs:label "hotel99" .
+
+###  http://smartTourismRecommendationSystem.com#hotel100
+SmartTourismRecommendationSystem:hotel100 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:RuralHotel ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Hotel Palace Málaga" ;
+       SmartTourismRecommendationSystem:hasId "100" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasPricePerNight "198"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasStars "3"^^xsd:integer ;
+       rdfs:comment "RuralHotel hotel" ;
+       rdfs:label "hotel100" .

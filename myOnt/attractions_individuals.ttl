@@ -1,0 +1,1011 @@
+@prefix : <http://smartTourismRecommendationSystem.com#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix SmartTourismRecommendationSystem: <http://smartTourismRecommendationSystem.com#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartTourismRecommendationSystem.com/Attractions>
+    a owl:Ontology .
+
+#################################################################
+#    Individuals Attractions
+#################################################################
+
+###  http://smartTourismRecommendationSystem.com#attraction1
+SmartTourismRecommendationSystem:attraction1 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "1" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction1" .
+
+###  http://smartTourismRecommendationSystem.com#attraction2
+SmartTourismRecommendationSystem:attraction2 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "2" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction2" .
+
+###  http://smartTourismRecommendationSystem.com#attraction3
+SmartTourismRecommendationSystem:attraction3 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "3" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction3" .
+
+###  http://smartTourismRecommendationSystem.com#attraction4
+SmartTourismRecommendationSystem:attraction4 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Museo Madrid" ;
+       SmartTourismRecommendationSystem:hasId "4" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction4" .
+
+###  http://smartTourismRecommendationSystem.com#attraction5
+SmartTourismRecommendationSystem:attraction5 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "5" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction5" .
+
+###  http://smartTourismRecommendationSystem.com#attraction6
+SmartTourismRecommendationSystem:attraction6 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "6" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction6" .
+
+###  http://smartTourismRecommendationSystem.com#attraction7
+SmartTourismRecommendationSystem:attraction7 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "7" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction7" .
+
+###  http://smartTourismRecommendationSystem.com#attraction8
+SmartTourismRecommendationSystem:attraction8 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Parque San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "8" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction8" .
+
+###  http://smartTourismRecommendationSystem.com#attraction9
+SmartTourismRecommendationSystem:attraction9 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "9" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction9" .
+
+###  http://smartTourismRecommendationSystem.com#attraction10
+SmartTourismRecommendationSystem:attraction10 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Toledo" ;
+       SmartTourismRecommendationSystem:hasId "10" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction10" .
+
+###  http://smartTourismRecommendationSystem.com#attraction11
+SmartTourismRecommendationSystem:attraction11 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Parque Toledo" ;
+       SmartTourismRecommendationSystem:hasId "11" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction11" .
+
+###  http://smartTourismRecommendationSystem.com#attraction12
+SmartTourismRecommendationSystem:attraction12 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "12" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction12" .
+
+###  http://smartTourismRecommendationSystem.com#attraction13
+SmartTourismRecommendationSystem:attraction13 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "13" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction13" .
+
+###  http://smartTourismRecommendationSystem.com#attraction14
+SmartTourismRecommendationSystem:attraction14 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "14" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction14" .
+
+###  http://smartTourismRecommendationSystem.com#attraction15
+SmartTourismRecommendationSystem:attraction15 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "15" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction15" .
+
+###  http://smartTourismRecommendationSystem.com#attraction16
+SmartTourismRecommendationSystem:attraction16 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "16" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction16" .
+
+###  http://smartTourismRecommendationSystem.com#attraction17
+SmartTourismRecommendationSystem:attraction17 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Parque Madrid" ;
+       SmartTourismRecommendationSystem:hasId "17" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction17" .
+
+###  http://smartTourismRecommendationSystem.com#attraction18
+SmartTourismRecommendationSystem:attraction18 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Museo Málaga" ;
+       SmartTourismRecommendationSystem:hasId "18" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction18" .
+
+###  http://smartTourismRecommendationSystem.com#attraction19
+SmartTourismRecommendationSystem:attraction19 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "19" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction19" .
+
+###  http://smartTourismRecommendationSystem.com#attraction20
+SmartTourismRecommendationSystem:attraction20 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "20" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction20" .
+
+###  http://smartTourismRecommendationSystem.com#attraction21
+SmartTourismRecommendationSystem:attraction21 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Málaga" ;
+       SmartTourismRecommendationSystem:hasId "21" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction21" .
+
+###  http://smartTourismRecommendationSystem.com#attraction22
+SmartTourismRecommendationSystem:attraction22 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Valencia" ;
+       SmartTourismRecommendationSystem:hasId "22" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction22" .
+
+###  http://smartTourismRecommendationSystem.com#attraction23
+SmartTourismRecommendationSystem:attraction23 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Castillo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "23" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction23" .
+
+###  http://smartTourismRecommendationSystem.com#attraction24
+SmartTourismRecommendationSystem:attraction24 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "24" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction24" .
+
+###  http://smartTourismRecommendationSystem.com#attraction25
+SmartTourismRecommendationSystem:attraction25 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Parque Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "25" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction25" .
+
+###  http://smartTourismRecommendationSystem.com#attraction26
+SmartTourismRecommendationSystem:attraction26 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "26" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction26" .
+
+###  http://smartTourismRecommendationSystem.com#attraction27
+SmartTourismRecommendationSystem:attraction27 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Málaga" ;
+       SmartTourismRecommendationSystem:hasId "27" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction27" .
+
+###  http://smartTourismRecommendationSystem.com#attraction28
+SmartTourismRecommendationSystem:attraction28 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Parque San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "28" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction28" .
+
+###  http://smartTourismRecommendationSystem.com#attraction29
+SmartTourismRecommendationSystem:attraction29 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Castillo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "29" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction29" .
+
+###  http://smartTourismRecommendationSystem.com#attraction30
+SmartTourismRecommendationSystem:attraction30 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Valencia" ;
+       SmartTourismRecommendationSystem:hasId "30" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction30" .
+
+###  http://smartTourismRecommendationSystem.com#attraction31
+SmartTourismRecommendationSystem:attraction31 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Málaga" ;
+       SmartTourismRecommendationSystem:hasId "31" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction31" .
+
+###  http://smartTourismRecommendationSystem.com#attraction32
+SmartTourismRecommendationSystem:attraction32 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Museo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "32" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction32" .
+
+###  http://smartTourismRecommendationSystem.com#attraction33
+SmartTourismRecommendationSystem:attraction33 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Museo Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "33" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction33" .
+
+###  http://smartTourismRecommendationSystem.com#attraction34
+SmartTourismRecommendationSystem:attraction34 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Museo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "34" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction34" .
+
+###  http://smartTourismRecommendationSystem.com#attraction35
+SmartTourismRecommendationSystem:attraction35 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "35" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction35" .
+
+###  http://smartTourismRecommendationSystem.com#attraction36
+SmartTourismRecommendationSystem:attraction36 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Parque Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "36" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction36" .
+
+###  http://smartTourismRecommendationSystem.com#attraction37
+SmartTourismRecommendationSystem:attraction37 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Madrid" ;
+       SmartTourismRecommendationSystem:hasId "37" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction37" .
+
+###  http://smartTourismRecommendationSystem.com#attraction38
+SmartTourismRecommendationSystem:attraction38 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Toledo" ;
+       SmartTourismRecommendationSystem:hasId "38" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction38" .
+
+###  http://smartTourismRecommendationSystem.com#attraction39
+SmartTourismRecommendationSystem:attraction39 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Castillo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "39" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction39" .
+
+###  http://smartTourismRecommendationSystem.com#attraction40
+SmartTourismRecommendationSystem:attraction40 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "40" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction40" .
+
+###  http://smartTourismRecommendationSystem.com#attraction41
+SmartTourismRecommendationSystem:attraction41 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Toledo" ;
+       SmartTourismRecommendationSystem:hasId "41" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction41" .
+
+###  http://smartTourismRecommendationSystem.com#attraction42
+SmartTourismRecommendationSystem:attraction42 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Museo Madrid" ;
+       SmartTourismRecommendationSystem:hasId "42" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction42" .
+
+###  http://smartTourismRecommendationSystem.com#attraction43
+SmartTourismRecommendationSystem:attraction43 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Parque Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "43" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction43" .
+
+###  http://smartTourismRecommendationSystem.com#attraction44
+SmartTourismRecommendationSystem:attraction44 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Museo Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "44" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction44" .
+
+###  http://smartTourismRecommendationSystem.com#attraction45
+SmartTourismRecommendationSystem:attraction45 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "45" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction45" .
+
+###  http://smartTourismRecommendationSystem.com#attraction46
+SmartTourismRecommendationSystem:attraction46 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Museo Toledo" ;
+       SmartTourismRecommendationSystem:hasId "46" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction46" .
+
+###  http://smartTourismRecommendationSystem.com#attraction47
+SmartTourismRecommendationSystem:attraction47 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Toledo" ;
+       SmartTourismRecommendationSystem:hasId "47" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction47" .
+
+###  http://smartTourismRecommendationSystem.com#attraction48
+SmartTourismRecommendationSystem:attraction48 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Parque San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "48" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction48" .
+
+###  http://smartTourismRecommendationSystem.com#attraction49
+SmartTourismRecommendationSystem:attraction49 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Castillo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "49" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction49" .
+
+###  http://smartTourismRecommendationSystem.com#attraction50
+SmartTourismRecommendationSystem:attraction50 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Parque Málaga" ;
+       SmartTourismRecommendationSystem:hasId "50" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction50" .
+
+###  http://smartTourismRecommendationSystem.com#attraction51
+SmartTourismRecommendationSystem:attraction51 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Madrid" ;
+       SmartTourismRecommendationSystem:hasId "51" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction51" .
+
+###  http://smartTourismRecommendationSystem.com#attraction52
+SmartTourismRecommendationSystem:attraction52 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Madrid" ;
+       SmartTourismRecommendationSystem:hasId "52" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction52" .
+
+###  http://smartTourismRecommendationSystem.com#attraction53
+SmartTourismRecommendationSystem:attraction53 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Valencia" ;
+       SmartTourismRecommendationSystem:hasId "53" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction53" .
+
+###  http://smartTourismRecommendationSystem.com#attraction54
+SmartTourismRecommendationSystem:attraction54 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Toledo" ;
+       SmartTourismRecommendationSystem:hasId "54" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction54" .
+
+###  http://smartTourismRecommendationSystem.com#attraction55
+SmartTourismRecommendationSystem:attraction55 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Parque Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "55" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction55" .
+
+###  http://smartTourismRecommendationSystem.com#attraction56
+SmartTourismRecommendationSystem:attraction56 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Museo Toledo" ;
+       SmartTourismRecommendationSystem:hasId "56" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction56" .
+
+###  http://smartTourismRecommendationSystem.com#attraction57
+SmartTourismRecommendationSystem:attraction57 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Parque Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "57" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction57" .
+
+###  http://smartTourismRecommendationSystem.com#attraction58
+SmartTourismRecommendationSystem:attraction58 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Málaga" ;
+       SmartTourismRecommendationSystem:hasId "58" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction58" .
+
+###  http://smartTourismRecommendationSystem.com#attraction59
+SmartTourismRecommendationSystem:attraction59 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "59" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction59" .
+
+###  http://smartTourismRecommendationSystem.com#attraction60
+SmartTourismRecommendationSystem:attraction60 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Parque Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "60" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction60" .
+
+###  http://smartTourismRecommendationSystem.com#attraction61
+SmartTourismRecommendationSystem:attraction61 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "61" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction61" .
+
+###  http://smartTourismRecommendationSystem.com#attraction62
+SmartTourismRecommendationSystem:attraction62 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Valencia" ;
+       SmartTourismRecommendationSystem:hasId "62" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction62" .
+
+###  http://smartTourismRecommendationSystem.com#attraction63
+SmartTourismRecommendationSystem:attraction63 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Museo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "63" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction63" .
+
+###  http://smartTourismRecommendationSystem.com#attraction64
+SmartTourismRecommendationSystem:attraction64 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Museo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "64" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction64" .
+
+###  http://smartTourismRecommendationSystem.com#attraction65
+SmartTourismRecommendationSystem:attraction65 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Parque Málaga" ;
+       SmartTourismRecommendationSystem:hasId "65" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction65" .
+
+###  http://smartTourismRecommendationSystem.com#attraction66
+SmartTourismRecommendationSystem:attraction66 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Museo San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "66" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction66" .
+
+###  http://smartTourismRecommendationSystem.com#attraction67
+SmartTourismRecommendationSystem:attraction67 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Parque Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "67" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction67" .
+
+###  http://smartTourismRecommendationSystem.com#attraction68
+SmartTourismRecommendationSystem:attraction68 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Madrid" ;
+       SmartTourismRecommendationSystem:hasId "68" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction68" .
+
+###  http://smartTourismRecommendationSystem.com#attraction69
+SmartTourismRecommendationSystem:attraction69 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Parque Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "69" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction69" .
+
+###  http://smartTourismRecommendationSystem.com#attraction70
+SmartTourismRecommendationSystem:attraction70 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "70" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction70" .
+
+###  http://smartTourismRecommendationSystem.com#attraction71
+SmartTourismRecommendationSystem:attraction71 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Parque Madrid" ;
+       SmartTourismRecommendationSystem:hasId "71" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction71" .
+
+###  http://smartTourismRecommendationSystem.com#attraction72
+SmartTourismRecommendationSystem:attraction72 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Parque Valencia" ;
+       SmartTourismRecommendationSystem:hasId "72" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction72" .
+
+###  http://smartTourismRecommendationSystem.com#attraction73
+SmartTourismRecommendationSystem:attraction73 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Valencia" ;
+       SmartTourismRecommendationSystem:hasId "73" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction73" .
+
+###  http://smartTourismRecommendationSystem.com#attraction74
+SmartTourismRecommendationSystem:attraction74 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Madrid" ;
+       SmartTourismRecommendationSystem:hasId "74" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction74" .
+
+###  http://smartTourismRecommendationSystem.com#attraction75
+SmartTourismRecommendationSystem:attraction75 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Toledo" ;
+       SmartTourismRecommendationSystem:hasId "75" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction75" .
+
+###  http://smartTourismRecommendationSystem.com#attraction76
+SmartTourismRecommendationSystem:attraction76 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "76" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction76" .
+
+###  http://smartTourismRecommendationSystem.com#attraction77
+SmartTourismRecommendationSystem:attraction77 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "77" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction77" .
+
+###  http://smartTourismRecommendationSystem.com#attraction78
+SmartTourismRecommendationSystem:attraction78 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "78" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction78" .
+
+###  http://smartTourismRecommendationSystem.com#attraction79
+SmartTourismRecommendationSystem:attraction79 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "79" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction79" .
+
+###  http://smartTourismRecommendationSystem.com#attraction80
+SmartTourismRecommendationSystem:attraction80 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Parque Madrid" ;
+       SmartTourismRecommendationSystem:hasId "80" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction80" .
+
+###  http://smartTourismRecommendationSystem.com#attraction81
+SmartTourismRecommendationSystem:attraction81 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Parque Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "81" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction81" .
+
+###  http://smartTourismRecommendationSystem.com#attraction82
+SmartTourismRecommendationSystem:attraction82 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Valencia" ;
+       SmartTourismRecommendationSystem:hasId "82" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction82" .
+
+###  http://smartTourismRecommendationSystem.com#attraction83
+SmartTourismRecommendationSystem:attraction83 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Málaga" ;
+       SmartTourismRecommendationSystem:hasId "83" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction83" .
+
+###  http://smartTourismRecommendationSystem.com#attraction84
+SmartTourismRecommendationSystem:attraction84 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "84" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction84" .
+
+###  http://smartTourismRecommendationSystem.com#attraction85
+SmartTourismRecommendationSystem:attraction85 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "85" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction85" .
+
+###  http://smartTourismRecommendationSystem.com#attraction86
+SmartTourismRecommendationSystem:attraction86 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Museo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "86" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction86" .
+
+###  http://smartTourismRecommendationSystem.com#attraction87
+SmartTourismRecommendationSystem:attraction87 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MonumentAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Parque San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "87" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       rdfs:comment "MonumentAttraction attraction" ;
+       rdfs:label "attraction87" .
+
+###  http://smartTourismRecommendationSystem.com#attraction88
+SmartTourismRecommendationSystem:attraction88 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Palacio Toledo" ;
+       SmartTourismRecommendationSystem:hasId "88" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction88" .
+
+###  http://smartTourismRecommendationSystem.com#attraction89
+SmartTourismRecommendationSystem:attraction89 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Castillo Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "89" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction89" .
+
+###  http://smartTourismRecommendationSystem.com#attraction90
+SmartTourismRecommendationSystem:attraction90 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Museo Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "90" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction90" .
+
+###  http://smartTourismRecommendationSystem.com#attraction91
+SmartTourismRecommendationSystem:attraction91 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "91" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction91" .
+
+###  http://smartTourismRecommendationSystem.com#attraction92
+SmartTourismRecommendationSystem:attraction92 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Museo Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "92" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction92" .
+
+###  http://smartTourismRecommendationSystem.com#attraction93
+SmartTourismRecommendationSystem:attraction93 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Parque Toledo" ;
+       SmartTourismRecommendationSystem:hasId "93" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction93" .
+
+###  http://smartTourismRecommendationSystem.com#attraction94
+SmartTourismRecommendationSystem:attraction94 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Toledo" ;
+       SmartTourismRecommendationSystem:hasId "94" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction94" .
+
+###  http://smartTourismRecommendationSystem.com#attraction95
+SmartTourismRecommendationSystem:attraction95 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Valencia" ;
+       SmartTourismRecommendationSystem:hasId "95" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction95" .
+
+###  http://smartTourismRecommendationSystem.com#attraction96
+SmartTourismRecommendationSystem:attraction96 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Museo Madrid" ;
+       SmartTourismRecommendationSystem:hasId "96" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction96" .
+
+###  http://smartTourismRecommendationSystem.com#attraction97
+SmartTourismRecommendationSystem:attraction97 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:BeachAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "97" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       rdfs:comment "BeachAttraction attraction" ;
+       rdfs:label "attraction97" .
+
+###  http://smartTourismRecommendationSystem.com#attraction98
+SmartTourismRecommendationSystem:attraction98 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MuseumAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Parque Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "98" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       rdfs:comment "MuseumAttraction attraction" ;
+       rdfs:label "attraction98" .
+
+###  http://smartTourismRecommendationSystem.com#attraction99
+SmartTourismRecommendationSystem:attraction99 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:CulturalAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Catedral Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "99" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "CulturalAttraction attraction" ;
+       rdfs:label "attraction99" .
+
+###  http://smartTourismRecommendationSystem.com#attraction100
+SmartTourismRecommendationSystem:attraction100 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ParkAttraction ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Museo Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "100" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       rdfs:comment "ParkAttraction attraction" ;
+       rdfs:label "attraction100" .

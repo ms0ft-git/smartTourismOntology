@@ -1,0 +1,1111 @@
+@prefix : <http://smartTourismRecommendationSystem.com#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix SmartTourismRecommendationSystem: <http://smartTourismRecommendationSystem.com#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartTourismRecommendationSystem.com/Restaurants>
+    a owl:Ontology .
+
+#################################################################
+#    Individuals Restaurants
+#################################################################
+
+###  http://smartTourismRecommendationSystem.com#restaurant1
+SmartTourismRecommendationSystem:restaurant1 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Toledo" ;
+       SmartTourismRecommendationSystem:hasId "1" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "46"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant1" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant2
+SmartTourismRecommendationSystem:restaurant2 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Madrid" ;
+       SmartTourismRecommendationSystem:hasId "2" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "30"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant2" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant3
+SmartTourismRecommendationSystem:restaurant3 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Valencia" ;
+       SmartTourismRecommendationSystem:hasId "3" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "13"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant3" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant4
+SmartTourismRecommendationSystem:restaurant4 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Málaga" ;
+       SmartTourismRecommendationSystem:hasId "4" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant4" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant5
+SmartTourismRecommendationSystem:restaurant5 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "5" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "36"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant5" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant6
+SmartTourismRecommendationSystem:restaurant6 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "6" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "72"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant6" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant7
+SmartTourismRecommendationSystem:restaurant7 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "7" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "65"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant7" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant8
+SmartTourismRecommendationSystem:restaurant8 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Toledo" ;
+       SmartTourismRecommendationSystem:hasId "8" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "48"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant8" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant9
+SmartTourismRecommendationSystem:restaurant9 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Málaga" ;
+       SmartTourismRecommendationSystem:hasId "9" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "70"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant9" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant10
+SmartTourismRecommendationSystem:restaurant10 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "10" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "16"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant10" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant11
+SmartTourismRecommendationSystem:restaurant11 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Madrid" ;
+       SmartTourismRecommendationSystem:hasId "11" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "49"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant11" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant12
+SmartTourismRecommendationSystem:restaurant12 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "12" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "11"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant12" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant13
+SmartTourismRecommendationSystem:restaurant13 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "13" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "77"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant13" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant14
+SmartTourismRecommendationSystem:restaurant14 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Valencia" ;
+       SmartTourismRecommendationSystem:hasId "14" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "46"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant14" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant15
+SmartTourismRecommendationSystem:restaurant15 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "15" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "48"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant15" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant16
+SmartTourismRecommendationSystem:restaurant16 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "16" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "40"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant16" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant17
+SmartTourismRecommendationSystem:restaurant17 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "17" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "68"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant17" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant18
+SmartTourismRecommendationSystem:restaurant18 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "18" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "34"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant18" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant19
+SmartTourismRecommendationSystem:restaurant19 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Madrid" ;
+       SmartTourismRecommendationSystem:hasId "19" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "37"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant19" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant20
+SmartTourismRecommendationSystem:restaurant20 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Málaga" ;
+       SmartTourismRecommendationSystem:hasId "20" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "36"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant20" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant21
+SmartTourismRecommendationSystem:restaurant21 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Madrid" ;
+       SmartTourismRecommendationSystem:hasId "21" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "16"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant21" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant22
+SmartTourismRecommendationSystem:restaurant22 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Madrid" ;
+       SmartTourismRecommendationSystem:hasId "22" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "30"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant22" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant23
+SmartTourismRecommendationSystem:restaurant23 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "23" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "11"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant23" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant24
+SmartTourismRecommendationSystem:restaurant24 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "24" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "11"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant24" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant25
+SmartTourismRecommendationSystem:restaurant25 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "25" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "60"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant25" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant26
+SmartTourismRecommendationSystem:restaurant26 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "26" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "32"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant26" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant27
+SmartTourismRecommendationSystem:restaurant27 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "27" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "45"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant27" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant28
+SmartTourismRecommendationSystem:restaurant28 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "28" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "18"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant28" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant29
+SmartTourismRecommendationSystem:restaurant29 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Valencia" ;
+       SmartTourismRecommendationSystem:hasId "29" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "61"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant29" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant30
+SmartTourismRecommendationSystem:restaurant30 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "30" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "42"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant30" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant31
+SmartTourismRecommendationSystem:restaurant31 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Madrid" ;
+       SmartTourismRecommendationSystem:hasId "31" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "75"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant31" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant32
+SmartTourismRecommendationSystem:restaurant32 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Madrid" ;
+       SmartTourismRecommendationSystem:hasId "32" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "46"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant32" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant33
+SmartTourismRecommendationSystem:restaurant33 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Toledo" ;
+       SmartTourismRecommendationSystem:hasId "33" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant33" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant34
+SmartTourismRecommendationSystem:restaurant34 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "34" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "43"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant34" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant35
+SmartTourismRecommendationSystem:restaurant35 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "35" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "56"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant35" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant36
+SmartTourismRecommendationSystem:restaurant36 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "36" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "77"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant36" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant37
+SmartTourismRecommendationSystem:restaurant37 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Valencia" ;
+       SmartTourismRecommendationSystem:hasId "37" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "28"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant37" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant38
+SmartTourismRecommendationSystem:restaurant38 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "38" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "41"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant38" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant39
+SmartTourismRecommendationSystem:restaurant39 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Toledo" ;
+       SmartTourismRecommendationSystem:hasId "39" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "70"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant39" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant40
+SmartTourismRecommendationSystem:restaurant40 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Valencia" ;
+       SmartTourismRecommendationSystem:hasId "40" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "59"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant40" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant41
+SmartTourismRecommendationSystem:restaurant41 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "41" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "56"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant41" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant42
+SmartTourismRecommendationSystem:restaurant42 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "42" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "15"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant42" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant43
+SmartTourismRecommendationSystem:restaurant43 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "43" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "43"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant43" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant44
+SmartTourismRecommendationSystem:restaurant44 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Málaga" ;
+       SmartTourismRecommendationSystem:hasId "44" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant44" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant45
+SmartTourismRecommendationSystem:restaurant45 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "45" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "41"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant45" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant46
+SmartTourismRecommendationSystem:restaurant46 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Málaga" ;
+       SmartTourismRecommendationSystem:hasId "46" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "56"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant46" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant47
+SmartTourismRecommendationSystem:restaurant47 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "47" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "61"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant47" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant48
+SmartTourismRecommendationSystem:restaurant48 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "48" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "39"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant48" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant49
+SmartTourismRecommendationSystem:restaurant49 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Málaga" ;
+       SmartTourismRecommendationSystem:hasId "49" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "43"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant49" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant50
+SmartTourismRecommendationSystem:restaurant50 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "50" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "65"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant50" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant51
+SmartTourismRecommendationSystem:restaurant51 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "51" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "66"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant51" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant52
+SmartTourismRecommendationSystem:restaurant52 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "52" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "21"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant52" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant53
+SmartTourismRecommendationSystem:restaurant53 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "53" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "26"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant53" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant54
+SmartTourismRecommendationSystem:restaurant54 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "54" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "80"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant54" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant55
+SmartTourismRecommendationSystem:restaurant55 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Málaga" ;
+       SmartTourismRecommendationSystem:hasId "55" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "11"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant55" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant56
+SmartTourismRecommendationSystem:restaurant56 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Madrid" ;
+       SmartTourismRecommendationSystem:hasId "56" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "59"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant56" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant57
+SmartTourismRecommendationSystem:restaurant57 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Málaga" ;
+       SmartTourismRecommendationSystem:hasId "57" ;
+       SmartTourismRecommendationSystem:hasRating "4.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "55"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant57" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant58
+SmartTourismRecommendationSystem:restaurant58 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "58" ;
+       SmartTourismRecommendationSystem:hasRating "4.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant58" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant59
+SmartTourismRecommendationSystem:restaurant59 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "59" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "57"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant59" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant60
+SmartTourismRecommendationSystem:restaurant60 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "60" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "19"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant60" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant61
+SmartTourismRecommendationSystem:restaurant61 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Madrid" ;
+       SmartTourismRecommendationSystem:hasId "61" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "76"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant61" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant62
+SmartTourismRecommendationSystem:restaurant62 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "62" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "66"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant62" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant63
+SmartTourismRecommendationSystem:restaurant63 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "63" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "41"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant63" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant64
+SmartTourismRecommendationSystem:restaurant64 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Málaga" ;
+       SmartTourismRecommendationSystem:hasId "64" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "35"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant64" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant65
+SmartTourismRecommendationSystem:restaurant65 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Málaga" ;
+       SmartTourismRecommendationSystem:hasId "65" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "57"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant65" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant66
+SmartTourismRecommendationSystem:restaurant66 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "66" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "51"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant66" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant67
+SmartTourismRecommendationSystem:restaurant67 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Toledo" ;
+       SmartTourismRecommendationSystem:hasId "67" ;
+       SmartTourismRecommendationSystem:hasRating "4.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "74"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant67" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant68
+SmartTourismRecommendationSystem:restaurant68 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "68" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "68"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant68" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant69
+SmartTourismRecommendationSystem:restaurant69 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "69" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "39"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant69" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant70
+SmartTourismRecommendationSystem:restaurant70 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "70" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "64"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant70" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant71
+SmartTourismRecommendationSystem:restaurant71 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "71" ;
+       SmartTourismRecommendationSystem:hasRating "3.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "53"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant71" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant72
+SmartTourismRecommendationSystem:restaurant72 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "72" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "46"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant72" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant73
+SmartTourismRecommendationSystem:restaurant73 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Valencia" ;
+       SmartTourismRecommendationSystem:hasId "73" ;
+       SmartTourismRecommendationSystem:hasRating "4.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant73" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant74
+SmartTourismRecommendationSystem:restaurant74 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "74" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "12"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant74" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant75
+SmartTourismRecommendationSystem:restaurant75 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "75" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "48"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant75" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant76
+SmartTourismRecommendationSystem:restaurant76 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Valencia" ;
+       SmartTourismRecommendationSystem:hasId "76" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "19"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant76" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant77
+SmartTourismRecommendationSystem:restaurant77 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "77" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "75"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant77" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant78
+SmartTourismRecommendationSystem:restaurant78 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Valencia" ;
+       SmartTourismRecommendationSystem:hasId "78" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "59"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant78" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant79
+SmartTourismRecommendationSystem:restaurant79 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Málaga" ;
+       SmartTourismRecommendationSystem:hasId "79" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "78"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant79" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant80
+SmartTourismRecommendationSystem:restaurant80 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "80" ;
+       SmartTourismRecommendationSystem:hasRating "3.5"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "78"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant80" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant81
+SmartTourismRecommendationSystem:restaurant81 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet San Sebastián" ;
+       SmartTourismRecommendationSystem:hasId "81" ;
+       SmartTourismRecommendationSystem:hasRating "3.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "74"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant81" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant82
+SmartTourismRecommendationSystem:restaurant82 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Madrid" ;
+       SmartTourismRecommendationSystem:hasId "82" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "30"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant82" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant83
+SmartTourismRecommendationSystem:restaurant83 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Bilbao" ;
+       SmartTourismRecommendationSystem:hasId "83" ;
+       SmartTourismRecommendationSystem:hasRating "4.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "66"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant83" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant84
+SmartTourismRecommendationSystem:restaurant84 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "84" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "15"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant84" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant85
+SmartTourismRecommendationSystem:restaurant85 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Madrid" ;
+       SmartTourismRecommendationSystem:hasId "85" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "43"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant85" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant86
+SmartTourismRecommendationSystem:restaurant86 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Cádiz" ;
+       SmartTourismRecommendationSystem:hasId "86" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "25"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant86" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant87
+SmartTourismRecommendationSystem:restaurant87 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Valencia" ;
+       SmartTourismRecommendationSystem:hasId "87" ;
+       SmartTourismRecommendationSystem:hasRating "3.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "21"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant87" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant88
+SmartTourismRecommendationSystem:restaurant88 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Barcelona" ;
+       SmartTourismRecommendationSystem:hasId "88" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "15"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant88" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant89
+SmartTourismRecommendationSystem:restaurant89 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Málaga" ;
+       SmartTourismRecommendationSystem:hasId "89" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "28"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant89" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant90
+SmartTourismRecommendationSystem:restaurant90 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "90" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "74"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant90" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant91
+SmartTourismRecommendationSystem:restaurant91 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "91" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "27"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant91" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant92
+SmartTourismRecommendationSystem:restaurant92 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Pamplona" ;
+       SmartTourismRecommendationSystem:hasId "92" ;
+       SmartTourismRecommendationSystem:hasRating "5.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "10"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant92" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant93
+SmartTourismRecommendationSystem:restaurant93 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Sabor Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "93" ;
+       SmartTourismRecommendationSystem:hasRating "4.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "58"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant93" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant94
+SmartTourismRecommendationSystem:restaurant94 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MediterraneanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "94" ;
+       SmartTourismRecommendationSystem:hasRating "4.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "66"^^xsd:float ;
+       rdfs:comment "MediterraneanRestaurant restaurant" ;
+       rdfs:label "restaurant94" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant95
+SmartTourismRecommendationSystem:restaurant95 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:MexicanRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "95" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "80"^^xsd:float ;
+       rdfs:comment "MexicanRestaurant restaurant" ;
+       rdfs:label "restaurant95" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant96
+SmartTourismRecommendationSystem:restaurant96 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:JapaneseRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Tradición Madrid" ;
+       SmartTourismRecommendationSystem:hasId "96" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "38"^^xsd:float ;
+       rdfs:comment "JapaneseRestaurant restaurant" ;
+       rdfs:label "restaurant96" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant97
+SmartTourismRecommendationSystem:restaurant97 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Fusión Zaragoza" ;
+       SmartTourismRecommendationSystem:hasId "97" ;
+       SmartTourismRecommendationSystem:hasRating "4.7"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "54"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant97" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant98
+SmartTourismRecommendationSystem:restaurant98 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Delicia Sevilla" ;
+       SmartTourismRecommendationSystem:hasId "98" ;
+       SmartTourismRecommendationSystem:hasRating "4.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "70"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant98" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant99
+SmartTourismRecommendationSystem:restaurant99 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:AndalusianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Valencia" ;
+       SmartTourismRecommendationSystem:hasId "99" ;
+       SmartTourismRecommendationSystem:hasRating "3.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "48"^^xsd:float ;
+       rdfs:comment "AndalusianRestaurant restaurant" ;
+       rdfs:label "restaurant99" .
+
+###  http://smartTourismRecommendationSystem.com#restaurant100
+SmartTourismRecommendationSystem:restaurant100 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:ItalianRestaurant ;
+       SmartTourismRecommendationSystem:isLocatedIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasName "Restaurante Gourmet Toledo" ;
+       SmartTourismRecommendationSystem:hasId "100" ;
+       SmartTourismRecommendationSystem:hasRating "4.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasAveragePrice "19"^^xsd:float ;
+       rdfs:comment "ItalianRestaurant restaurant" ;
+       rdfs:label "restaurant100" .

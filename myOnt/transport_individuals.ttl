@@ -1,0 +1,1010 @@
+@prefix : <http://smartTourismRecommendationSystem.com#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix SmartTourismRecommendationSystem: <http://smartTourismRecommendationSystem.com#> .
+
+<http://smartTourismRecommendationSystem.com/Transport>
+    a owl:Ontology .
+
+#################################################################
+#    Individuals Transport
+#################################################################
+
+###  http://smartTourismRecommendationSystem.com#transport1
+SmartTourismRecommendationSystem:transport1 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.85"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "1" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport1" .
+
+###  http://smartTourismRecommendationSystem.com#transport2
+SmartTourismRecommendationSystem:transport2 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.75"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "2" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport2" .
+
+###  http://smartTourismRecommendationSystem.com#transport3
+SmartTourismRecommendationSystem:transport3 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.61"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "3" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport3" .
+
+###  http://smartTourismRecommendationSystem.com#transport4
+SmartTourismRecommendationSystem:transport4 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "City Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.79"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "4" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport4" .
+
+###  http://smartTourismRecommendationSystem.com#transport5
+SmartTourismRecommendationSystem:transport5 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.63"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "5" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport5" .
+
+###  http://smartTourismRecommendationSystem.com#transport6
+SmartTourismRecommendationSystem:transport6 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.48"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "6" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport6" .
+
+###  http://smartTourismRecommendationSystem.com#transport7
+SmartTourismRecommendationSystem:transport7 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.4"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "7" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport7" .
+
+###  http://smartTourismRecommendationSystem.com#transport8
+SmartTourismRecommendationSystem:transport8 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "City Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.32"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "8" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport8" .
+
+###  http://smartTourismRecommendationSystem.com#transport9
+SmartTourismRecommendationSystem:transport9 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.72"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "9" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport9" .
+
+###  http://smartTourismRecommendationSystem.com#transport10
+SmartTourismRecommendationSystem:transport10 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.48"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "10" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport10" .
+
+###  http://smartTourismRecommendationSystem.com#transport11
+SmartTourismRecommendationSystem:transport11 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.05"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "11" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport11" .
+
+###  http://smartTourismRecommendationSystem.com#transport12
+SmartTourismRecommendationSystem:transport12 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "City Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.03"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "12" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport12" .
+
+###  http://smartTourismRecommendationSystem.com#transport13
+SmartTourismRecommendationSystem:transport13 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "City Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.87"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "13" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport13" .
+
+###  http://smartTourismRecommendationSystem.com#transport14
+SmartTourismRecommendationSystem:transport14 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.11"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "14" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport14" .
+
+###  http://smartTourismRecommendationSystem.com#transport15
+SmartTourismRecommendationSystem:transport15 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.93"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "15" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport15" .
+
+###  http://smartTourismRecommendationSystem.com#transport16
+SmartTourismRecommendationSystem:transport16 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "City Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.66"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "16" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport16" .
+
+###  http://smartTourismRecommendationSystem.com#transport17
+SmartTourismRecommendationSystem:transport17 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.58"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "17" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport17" .
+
+###  http://smartTourismRecommendationSystem.com#transport18
+SmartTourismRecommendationSystem:transport18 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.84"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "18" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport18" .
+
+###  http://smartTourismRecommendationSystem.com#transport19
+SmartTourismRecommendationSystem:transport19 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "City Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.58"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "19" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport19" .
+
+###  http://smartTourismRecommendationSystem.com#transport20
+SmartTourismRecommendationSystem:transport20 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "20" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport20" .
+
+###  http://smartTourismRecommendationSystem.com#transport21
+SmartTourismRecommendationSystem:transport21 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "City Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.55"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "21" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport21" .
+
+###  http://smartTourismRecommendationSystem.com#transport22
+SmartTourismRecommendationSystem:transport22 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.11"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "22" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport22" .
+
+###  http://smartTourismRecommendationSystem.com#transport23
+SmartTourismRecommendationSystem:transport23 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.83"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "23" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport23" .
+
+###  http://smartTourismRecommendationSystem.com#transport24
+SmartTourismRecommendationSystem:transport24 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.57"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "24" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport24" .
+
+###  http://smartTourismRecommendationSystem.com#transport25
+SmartTourismRecommendationSystem:transport25 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.04"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "25" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport25" .
+
+###  http://smartTourismRecommendationSystem.com#transport26
+SmartTourismRecommendationSystem:transport26 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "26" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport26" .
+
+###  http://smartTourismRecommendationSystem.com#transport27
+SmartTourismRecommendationSystem:transport27 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.54"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "27" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport27" .
+
+###  http://smartTourismRecommendationSystem.com#transport28
+SmartTourismRecommendationSystem:transport28 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.89"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "28" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport28" .
+
+###  http://smartTourismRecommendationSystem.com#transport29
+SmartTourismRecommendationSystem:transport29 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.09"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "29" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport29" .
+
+###  http://smartTourismRecommendationSystem.com#transport30
+SmartTourismRecommendationSystem:transport30 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.87"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "30" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport30" .
+
+###  http://smartTourismRecommendationSystem.com#transport31
+SmartTourismRecommendationSystem:transport31 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.67"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "31" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport31" .
+
+###  http://smartTourismRecommendationSystem.com#transport32
+SmartTourismRecommendationSystem:transport32 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.18"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "32" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport32" .
+
+###  http://smartTourismRecommendationSystem.com#transport33
+SmartTourismRecommendationSystem:transport33 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.12"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "33" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport33" .
+
+###  http://smartTourismRecommendationSystem.com#transport34
+SmartTourismRecommendationSystem:transport34 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.12"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "34" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport34" .
+
+###  http://smartTourismRecommendationSystem.com#transport35
+SmartTourismRecommendationSystem:transport35 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.31"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "35" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport35" .
+
+###  http://smartTourismRecommendationSystem.com#transport36
+SmartTourismRecommendationSystem:transport36 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "City Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.12"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "36" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport36" .
+
+###  http://smartTourismRecommendationSystem.com#transport37
+SmartTourismRecommendationSystem:transport37 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.55"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "37" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport37" .
+
+###  http://smartTourismRecommendationSystem.com#transport38
+SmartTourismRecommendationSystem:transport38 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.09"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "38" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport38" .
+
+###  http://smartTourismRecommendationSystem.com#transport39
+SmartTourismRecommendationSystem:transport39 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.49"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "39" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport39" .
+
+###  http://smartTourismRecommendationSystem.com#transport40
+SmartTourismRecommendationSystem:transport40 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.19"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "40" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport40" .
+
+###  http://smartTourismRecommendationSystem.com#transport41
+SmartTourismRecommendationSystem:transport41 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.57"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "41" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport41" .
+
+###  http://smartTourismRecommendationSystem.com#transport42
+SmartTourismRecommendationSystem:transport42 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.2"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "42" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport42" .
+
+###  http://smartTourismRecommendationSystem.com#transport43
+SmartTourismRecommendationSystem:transport43 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "City Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.05"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "43" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport43" .
+
+###  http://smartTourismRecommendationSystem.com#transport44
+SmartTourismRecommendationSystem:transport44 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.21"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "44" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport44" .
+
+###  http://smartTourismRecommendationSystem.com#transport45
+SmartTourismRecommendationSystem:transport45 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.48"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "45" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport45" .
+
+###  http://smartTourismRecommendationSystem.com#transport46
+SmartTourismRecommendationSystem:transport46 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.31"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "46" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport46" .
+
+###  http://smartTourismRecommendationSystem.com#transport47
+SmartTourismRecommendationSystem:transport47 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.77"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "47" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport47" .
+
+###  http://smartTourismRecommendationSystem.com#transport48
+SmartTourismRecommendationSystem:transport48 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.04"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "48" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport48" .
+
+###  http://smartTourismRecommendationSystem.com#transport49
+SmartTourismRecommendationSystem:transport49 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "City Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.21"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "49" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport49" .
+
+###  http://smartTourismRecommendationSystem.com#transport50
+SmartTourismRecommendationSystem:transport50 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.0"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "50" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport50" .
+
+###  http://smartTourismRecommendationSystem.com#transport51
+SmartTourismRecommendationSystem:transport51 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.76"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "51" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport51" .
+
+###  http://smartTourismRecommendationSystem.com#transport52
+SmartTourismRecommendationSystem:transport52 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.92"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "52" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport52" .
+
+###  http://smartTourismRecommendationSystem.com#transport53
+SmartTourismRecommendationSystem:transport53 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.6"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "53" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport53" .
+
+###  http://smartTourismRecommendationSystem.com#transport54
+SmartTourismRecommendationSystem:transport54 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.97"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "54" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport54" .
+
+###  http://smartTourismRecommendationSystem.com#transport55
+SmartTourismRecommendationSystem:transport55 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.33"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "55" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport55" .
+
+###  http://smartTourismRecommendationSystem.com#transport56
+SmartTourismRecommendationSystem:transport56 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.46"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "56" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport56" .
+
+###  http://smartTourismRecommendationSystem.com#transport57
+SmartTourismRecommendationSystem:transport57 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "57" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport57" .
+
+###  http://smartTourismRecommendationSystem.com#transport58
+SmartTourismRecommendationSystem:transport58 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.38"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "58" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport58" .
+
+###  http://smartTourismRecommendationSystem.com#transport59
+SmartTourismRecommendationSystem:transport59 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.71"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "59" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport59" .
+
+###  http://smartTourismRecommendationSystem.com#transport60
+SmartTourismRecommendationSystem:transport60 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.88"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "60" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport60" .
+
+###  http://smartTourismRecommendationSystem.com#transport61
+SmartTourismRecommendationSystem:transport61 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.18"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "61" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport61" .
+
+###  http://smartTourismRecommendationSystem.com#transport62
+SmartTourismRecommendationSystem:transport62 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "City Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.86"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "62" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport62" .
+
+###  http://smartTourismRecommendationSystem.com#transport63
+SmartTourismRecommendationSystem:transport63 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "63" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport63" .
+
+###  http://smartTourismRecommendationSystem.com#transport64
+SmartTourismRecommendationSystem:transport64 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "City Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.1"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "64" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport64" .
+
+###  http://smartTourismRecommendationSystem.com#transport65
+SmartTourismRecommendationSystem:transport65 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "65" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport65" .
+
+###  http://smartTourismRecommendationSystem.com#transport66
+SmartTourismRecommendationSystem:transport66 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.15"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "66" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport66" .
+
+###  http://smartTourismRecommendationSystem.com#transport67
+SmartTourismRecommendationSystem:transport67 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "67" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport67" .
+
+###  http://smartTourismRecommendationSystem.com#transport68
+SmartTourismRecommendationSystem:transport68 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.71"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "68" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport68" .
+
+###  http://smartTourismRecommendationSystem.com#transport69
+SmartTourismRecommendationSystem:transport69 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.88"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "69" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport69" .
+
+###  http://smartTourismRecommendationSystem.com#transport70
+SmartTourismRecommendationSystem:transport70 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.24"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "70" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport70" .
+
+###  http://smartTourismRecommendationSystem.com#transport71
+SmartTourismRecommendationSystem:transport71 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.86"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "71" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport71" .
+
+###  http://smartTourismRecommendationSystem.com#transport72
+SmartTourismRecommendationSystem:transport72 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.15"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "72" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport72" .
+
+###  http://smartTourismRecommendationSystem.com#transport73
+SmartTourismRecommendationSystem:transport73 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.65"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "73" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport73" .
+
+###  http://smartTourismRecommendationSystem.com#transport74
+SmartTourismRecommendationSystem:transport74 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.09"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "74" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport74" .
+
+###  http://smartTourismRecommendationSystem.com#transport75
+SmartTourismRecommendationSystem:transport75 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.69"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "75" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport75" .
+
+###  http://smartTourismRecommendationSystem.com#transport76
+SmartTourismRecommendationSystem:transport76 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "City Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.06"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "76" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport76" .
+
+###  http://smartTourismRecommendationSystem.com#transport77
+SmartTourismRecommendationSystem:transport77 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "8.3"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "77" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport77" .
+
+###  http://smartTourismRecommendationSystem.com#transport78
+SmartTourismRecommendationSystem:transport78 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.47"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "78" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport78" .
+
+###  http://smartTourismRecommendationSystem.com#transport79
+SmartTourismRecommendationSystem:transport79 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.83"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "79" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport79" .
+
+###  http://smartTourismRecommendationSystem.com#transport80
+SmartTourismRecommendationSystem:transport80 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.84"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "80" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport80" .
+
+###  http://smartTourismRecommendationSystem.com#transport81
+SmartTourismRecommendationSystem:transport81 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "City Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.69"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "81" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport81" .
+
+###  http://smartTourismRecommendationSystem.com#transport82
+SmartTourismRecommendationSystem:transport82 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "City Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.8"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "82" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport82" .
+
+###  http://smartTourismRecommendationSystem.com#transport83
+SmartTourismRecommendationSystem:transport83 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city1 ;
+       SmartTourismRecommendationSystem:hasCompany "City Toledo" ;
+       SmartTourismRecommendationSystem:hasAverageCost "4.59"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "83" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport83" .
+
+###  http://smartTourismRecommendationSystem.com#transport84
+SmartTourismRecommendationSystem:transport84 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.68"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "84" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport84" .
+
+###  http://smartTourismRecommendationSystem.com#transport85
+SmartTourismRecommendationSystem:transport85 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.58"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "85" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport85" .
+
+###  http://smartTourismRecommendationSystem.com#transport86
+SmartTourismRecommendationSystem:transport86 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city10 ;
+       SmartTourismRecommendationSystem:hasCompany "City Sevilla" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.98"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "86" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport86" .
+
+###  http://smartTourismRecommendationSystem.com#transport87
+SmartTourismRecommendationSystem:transport87 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city4 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Barcelona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.29"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "87" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport87" .
+
+###  http://smartTourismRecommendationSystem.com#transport88
+SmartTourismRecommendationSystem:transport88 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "7.14"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "88" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport88" .
+
+###  http://smartTourismRecommendationSystem.com#transport89
+SmartTourismRecommendationSystem:transport89 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "9.37"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "89" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport89" .
+
+###  http://smartTourismRecommendationSystem.com#transport90
+SmartTourismRecommendationSystem:transport90 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "City Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.9"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "90" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport90" .
+
+###  http://smartTourismRecommendationSystem.com#transport91
+SmartTourismRecommendationSystem:transport91 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city6 ;
+       SmartTourismRecommendationSystem:hasCompany "Urban Bilbao" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.28"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "91" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport91" .
+
+###  http://smartTourismRecommendationSystem.com#transport92
+SmartTourismRecommendationSystem:transport92 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.82"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "92" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport92" .
+
+###  http://smartTourismRecommendationSystem.com#transport93
+SmartTourismRecommendationSystem:transport93 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Metro ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city2 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Valencia" ;
+       SmartTourismRecommendationSystem:hasAverageCost "2.22"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "93" ;
+       rdfs:comment "Metro transport service" ;
+       rdfs:label "transport93" .
+
+###  http://smartTourismRecommendationSystem.com#transport94
+SmartTourismRecommendationSystem:transport94 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city11 ;
+       SmartTourismRecommendationSystem:hasCompany "Movi Málaga" ;
+       SmartTourismRecommendationSystem:hasAverageCost "6.76"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "94" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport94" .
+
+###  http://smartTourismRecommendationSystem.com#transport95
+SmartTourismRecommendationSystem:transport95 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city3 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Madrid" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.28"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "95" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport95" .
+
+###  http://smartTourismRecommendationSystem.com#transport96
+SmartTourismRecommendationSystem:transport96 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city5 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Zaragoza" ;
+       SmartTourismRecommendationSystem:hasAverageCost "5.11"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "96" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport96" .
+
+###  http://smartTourismRecommendationSystem.com#transport97
+SmartTourismRecommendationSystem:transport97 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:PublicBike ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city9 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Cádiz" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.56"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "97" ;
+       rdfs:comment "PublicBike transport service" ;
+       rdfs:label "transport97" .
+
+###  http://smartTourismRecommendationSystem.com#transport98
+SmartTourismRecommendationSystem:transport98 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Tram ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "City Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.92"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "98" ;
+       rdfs:comment "Tram transport service" ;
+       rdfs:label "transport98" .
+
+###  http://smartTourismRecommendationSystem.com#transport99
+SmartTourismRecommendationSystem:transport99 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Taxi ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city8 ;
+       SmartTourismRecommendationSystem:hasCompany "Metro San Sebastián" ;
+       SmartTourismRecommendationSystem:hasAverageCost "1.05"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "99" ;
+       rdfs:comment "Taxi transport service" ;
+       rdfs:label "transport99" .
+
+###  http://smartTourismRecommendationSystem.com#transport100
+SmartTourismRecommendationSystem:transport100 rdf:type owl:NamedIndividual ,
+             SmartTourismRecommendationSystem:Bus ;
+       SmartTourismRecommendationSystem:operatesIn SmartTourismRecommendationSystem:city7 ;
+       SmartTourismRecommendationSystem:hasCompany "Trans Pamplona" ;
+       SmartTourismRecommendationSystem:hasAverageCost "3.14"^^xsd:float ;
+       SmartTourismRecommendationSystem:hasId "100" ;
+       rdfs:comment "Bus transport service" ;
+       rdfs:label "transport100" .
